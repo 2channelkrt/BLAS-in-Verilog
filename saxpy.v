@@ -36,7 +36,7 @@ always @ (posedge ref_clk) begin
         end
         if(count_A==2'b11) begin
             ready_A<=1'b1;
-            count_B<=2'b0;
+            count_A<=2'b0;
         end
     end
 
