@@ -25,9 +25,9 @@ Precision specifies how precisely can this operation safely handles the given ca
 
 Each file has inputs for each operands and an output for the calculation result. Each input operands and output has valid bit acting as data strobe.
 
-saxpy does vector/vector additions
+saxpy does vector/vector additions<br/>
 ![saxpy_image](github.com/2channelkrt/BLAS-in-Verilog/assets/saxpy.jpg)
-sgemv does matrix/vector multiplications
+sgemv does matrix/vector multiplications<br/>
 ![sgemv_image](github.com/2channelkrt/BLAS-in-Verilog/assets/sgemv.jpg)
-sgemm does matrix/matrix multiplication
+sgemm does matrix/matrix multiplication<br/>
 ![sgemm_image](github.com/2channelkrt/BLAS-in-Verilog/assets/sgemm.jpg)
