@@ -27,6 +27,8 @@ Precision specifies how precisely can this operation safely handles the given ca
 
 Each file implements one BLAS operation, and type of the operation is specified within the file name. Each operation has inputs for each operands and an output for the operation result. Each input operands and output has valid bit acting as data strobe.
 
+All 3 operations takes an 32-bit fixed point single-precision as an input. Dimension for the vector inputs are 1x4 (128 bit) and matrix is 4x4 (512 bit).
+
 saxpy does vector/vector additions<br/>
 ![saxpy_image](https://github.com/2channelkrt/BLAS-in-Verilog/blob/master/assets/saxpy.jpg)<br/>
 sgemv does matrix/vector multiplications<br/>
