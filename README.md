@@ -1,6 +1,8 @@
 # BLAS-in-Verilog
 BLAS-in-verilog implements representitive "fixed point single-precision vector/matrix operations" included in BLAS.
 
+This work was part of the research project conducted in the university lab, which targets implementation of process-in-memory ([PIM](https://en.wikipedia.org/wiki/In-memory_processing)) in high-bandwidth memory ([HBM](https://en.wikipedia.org/wiki/High_Bandwidth_Memory)). Original work also features memory controller and interconnection module along with the provided 'BLAS-in-Verilog', but is not disclosed to the public.
+
 ## Terminology
 
 ### BLAS
@@ -23,7 +25,7 @@ Precision specifies how precisely can this operation safely handles the given ca
 
 # Implementation
 
-Each file has inputs for each operands and an output for the calculation result. Each input operands and output has valid bit acting as data strobe.
+Each file implements one BLAS operation, and type of the operation is specified within the file name. Each operation has inputs for each operands and an output for the operation result. Each input operands and output has valid bit acting as data strobe.
 
 saxpy does vector/vector additions<br/>
 ![saxpy_image](https://github.com/2channelkrt/BLAS-in-Verilog/blob/master/assets/saxpy.jpg)<br/>
