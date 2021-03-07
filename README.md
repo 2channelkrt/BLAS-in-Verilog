@@ -1,7 +1,7 @@
 # BLAS-in-Verilog
 BLAS-in-verilog implements representitive "fixed point single-precision vector/matrix operations" included in BLAS.
 
-This work was part of the research project conducted in the university lab, which targets implementation of process-in-memory ([PIM](https://en.wikipedia.org/wiki/In-memory_processing)) in high-bandwidth memory ([HBM](https://en.wikipedia.org/wiki/High_Bandwidth_Memory)). Original work also features memory controller and interconnection module along with the provided 'BLAS-in-Verilog', but is not disclosed to the public.
+This work was part of the research project conducted in the university lab, which targets implementation of process-in-memory ([PIM](https://en.wikipedia.org/wiki/In-memory_processing)) in high-bandwidth memory ([HBM](https://en.wikipedia.org/wiki/High_Bandwidth_Memory)). Original work also features memory controller and interconnection module along with this repository, but is not disclosed to the public.
 
 ## Terminology
 
