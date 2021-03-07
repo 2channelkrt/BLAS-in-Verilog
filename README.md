@@ -30,8 +30,8 @@ Each file implements one BLAS operation, and type of the operation is specified 
 All 3 operations takes an 32-bit fixed point single-precision as an input. Dimension for the vector inputs are 1x4 (128 bit) and matrix is 4x4 (512 bit).
 
 saxpy does vector/vector additions<br/>
-![saxpy_image](https://github.com/2channelkrt/BLAS-in-Verilog/blob/master/assets/saxpy.jpg)<br/>
+![saxpy_image](assets/saxpy.jpg)<br/>
 sgemv does matrix/vector multiplications<br/>
-![sgemv_image](https://github.com/2channelkrt/BLAS-in-Verilog/blob/master/assets/sgemv.jpg)<br/>
+![sgemv_image](assets/sgemv.jpg)<br/>
 sgemm does matrix/matrix multiplication<br/>
-![sgemm_image](https://github.com/2channelkrt/BLAS-in-Verilog/blob/master/assets/sgemm.jpg)
+![sgemm_image](assets/sgemm.jpg)
